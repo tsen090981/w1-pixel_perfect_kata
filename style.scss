@@ -1,0 +1,43 @@
+*{
+    outline: 1px solid skyblue;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.container{
+    width: 640px;
+    margin: auto;
+}
+.con1{
+    display: flex;
+    .news_con{
+        display: flex;
+        margin-bottom: 24px;
+        .pic{
+            width: 96px;
+        }
+    }
+    .text{
+        margin: auto 20px;
+        .title{
+            font-size: 20px;
+            line-height: 1.2;
+        }
+        p{
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    }
+    .ads{
+        .pic{
+            width: 216px;
+        }
+    }
+}
+.con2{
+    p{
+        font-size: 16px;
+        line-height: 1.5;
+        height: 120px;
+    }
+}

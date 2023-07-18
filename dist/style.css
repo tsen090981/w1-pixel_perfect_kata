@@ -1,0 +1,42 @@
+* {
+  outline: 1px solid skyblue;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.container {
+  width: 640px;
+  margin: auto;
+}
+
+.con1 {
+  display: flex;
+}
+.con1 .news_con {
+  display: flex;
+  margin-bottom: 24px;
+}
+.con1 .news_con .pic {
+  width: 96px;
+}
+.con1 .text {
+  margin: auto 20px;
+}
+.con1 .text .title {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.con1 .text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.con1 .ads .pic {
+  width: 216px;
+}
+
+.con2 p {
+  font-size: 16px;
+  line-height: 1.5;
+  height: 120px;
+}
